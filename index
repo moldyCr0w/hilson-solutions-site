@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wayfinder Outreach Verification</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: #f4f4f4;
+      padding: 2rem;
+      max-width: 700px;
+      margin: auto;
+      color: #333;
+    }
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    h1 {
+      margin-top: 0;
+    }
+    a {
+      color: #1a73e8;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .footer {
+      margin-top: 2rem;
+      font-size: 0.875rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Verified Outreach Domain</h1>
+    <p>You’ve received a message from <strong>andrew@hilson.solutions</strong>.</p>
+    <p>This email address is used by Andrew Hilson, founder of <a href="https://wayfindercoaching.org" target="_blank">Wayfinder Coaching</a>, as part of our secure outreach system to job seekers and professionals.</p>
+    <p>To learn more about our work or verify the message, visit <a href="https://wayfindercoaching.org">wayfindercoaching.org</a> or email Andrew directly at <a href="mailto:andrew@wayfindercoaching.org">andrew@wayfindercoaching.org</a>.</p>
+    <div class="footer">
+      &copy; 2025 Wayfinder Coaching. All rights reserved.
+    </div>
+  </div>
+</body>
+</html>
 
