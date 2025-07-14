@@ -2,50 +2,93 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Wayfinder Outreach Verification</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hilson Systems — Verified Outreach</title>
   <style>
     body {
-      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-      background-color: #f4f4f4;
-      padding: 2rem;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f7f9f8;
+      color: #1a1a1a;
+    }
+
+    header {
+      background-color: #ffffff;
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #ddd;
+    }
+
+    header img {
+      height: 40px;
+    }
+
+    main {
       max-width: 700px;
-      margin: auto;
-      color: #333;
-    }
-    .card {
-      background: white;
-      padding: 2rem;
+      margin: 3rem auto;
+      background: #fff;
       border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 2rem;
+      box-shadow: 0 2px 20px rgba(0,0,0,0.05);
     }
+
     h1 {
+      font-size: 1.9rem;
       margin-top: 0;
+      color: #1a1a1a;
     }
-    a {
-      color: #1a73e8;
+
+    p {
+      line-height: 1.7;
+      font-size: 1rem;
+      margin-bottom: 1.2rem;
+    }
+
+    a.cta {
+      display: inline-block;
+      margin-top: 1rem;
+      background-color: #0b683e;
+      color: white;
+      padding: 0.75rem 1.25rem;
+      border-radius: 4px;
+      font-weight: 600;
+      font-size: 1rem;
       text-decoration: none;
+      transition: background-color 0.2s ease;
     }
-    a:hover {
-      text-decoration: underline;
+
+    a.cta:hover {
+      background-color: #095f38;
     }
-    .footer {
-      margin-top: 2rem;
+
+    footer {
+      text-align: center;
       font-size: 0.875rem;
-      color: #666;
+      color: #777;
+      margin-top: 3rem;
+      padding: 1rem;
     }
   </style>
 </head>
 <body>
-  <div class="card">
-    <h1>Verified Outreach Domain</h1>
-    <p>You’ve received a message from <strong>andrew@hilson.solutions</strong>.</p>
-    <p>This email address is used by Andrew Hilson, founder of <a href="https://wayfindercoaching.org" target="_blank">Wayfinder Coaching</a>, as part of our secure outreach system to job seekers and professionals.</p>
-    <p>To learn more about our work or verify the message, visit <a href="https://wayfindercoaching.org">wayfindercoaching.org</a> or email Andrew directly at <a href="mailto:andrew@wayfindercoaching.org">andrew@wayfindercoaching.org</a>.</p>
-    <div class="footer">
-      &copy; 2025 Wayfinder Coaching. All rights reserved.
-    </div>
-  </div>
+
+  <header>
+    <img src="logo.svg" alt="Wayfinder Coaching Logo" />
+  </header>
+
+  <main>
+    <h1>This is a verified outreach domain</h1>
+    <p>You received a message from <strong>andrew@hilson.solutions</strong>.</p>
+    <p>This address is used by <strong>Andrew Hilson</strong>, founder of <a href="https://wayfindercoaching.org" target="_blank">Wayfinder Coaching</a>, as part of a personalized outreach system to support job seekers and career professionals.</p>
+    <p>If you’d like to learn more or speak with Andrew directly, you can book a short call below.</p>
+
+    <a class="cta" href="https://app.lemcal.com/@andrewhilson" target="_blank">Book a Call</a>
+  </main>
+
+  <footer>
+    &copy; 2025 Wayfinder Coaching. All rights reserved.
+  </footer>
+
 </body>
 </html>
-
